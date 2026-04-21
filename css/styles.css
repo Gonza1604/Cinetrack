@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+header{
+    background-color: rgb(232, 248, 228);
+    border: 5px solid black;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+.header-avatar{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.links ul{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
