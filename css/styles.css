@@ -29,3 +29,23 @@ header{
     align-items: center;
     gap: 20px;
 }
+
+
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button{
+    background-color: rgb(189, 245, 172);
+    border: 2px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+button:active{
+    background-color: rgb(91, 196, 59);
+    transform: scale(0.98);
+}
